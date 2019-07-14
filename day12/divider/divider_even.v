@@ -43,7 +43,7 @@ always @ (posedge clk)
             end
         else
             begin
-            	if (cnt == N/2 || cnt == N-1) 
+            	if (cnt == N/2-1 || cnt == N-1) 
             	    begin
            	   			clk_div_even <= ~clk_div_even;         			
             		end
