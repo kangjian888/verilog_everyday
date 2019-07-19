@@ -44,7 +44,7 @@ always @ (posedge clk)
     begin
     	if (key_edge) 
     		begin
-    			counter_on = 1'b1;
+    			counter_on <= 1'b1;
     		end
     	if (counter_on) 
     	    begin
